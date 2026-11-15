@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 320px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 22px;
+    color: #0066cc;
+}
+
+.input-grupo {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 8px;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #004c99;
+}
+
+/* Caixa de resultado */
+#resultado {
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Classes de estilo dinâmico que o JS vai alternar */
+.abaixo {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.normal {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.sobrepeso {
+    background-color: #ffeeba;
+    color: #856404;
+}
+
+.obesidade {
+    background-color: #f8d7da;
+    color: #721c24;
+}
